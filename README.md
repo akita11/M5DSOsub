@@ -6,7 +6,7 @@
 
 M5StackBasicを簡易的なオシロにするアダプタです。M5Stackを簡易オシロにするソフトウエアはいくつかります（例えば[M5Stack-ESP32-Oscilloscope](https://github.com/botofancalin/M5Stack-ESP32-Oscilloscope)や[M5Stackオシロスコープ](https://goji2100.com/blog/?p=967)など）。いずれもM5StackのBOTTOM（底板）に出ているアナログ入力(GPIO36/35)を入力として使っています。
 
-M5StackBasicのBOTTOMコネクタにこのアダプタを差し込むことで、これらのソフトウエアを使って、簡易オシロにすることができます。入力保護回路と切り替えで1/10アッテネータを使用できます。
+M5StackBasicのBOTTOMコネクタにこのアダプタを差し込むことで、これらのソフトウエアを使って、簡易オシロにすることができます。入力保護回路つきで、ショートピン切り替えで1/10アッテネータを使用できます。
 
 ※これらの2つのソフトウエアは、ArduinoIDEで使えるバージョンのESP32用ライブラリ(ESP-IDF)では再起動を繰り返す挙動があるようです。[M5Stack-ESP32-Oscilloscopeのほうは、Issueに上がっている修正](https://github.com/botofancalin/M5Stack-ESP32-Oscilloscope/issues/2)を行うことで、この問題を回避できます。
 
