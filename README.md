@@ -4,7 +4,7 @@
 
 <img src="https://github.com/akita11/M5DSOsub/blob/main/M5DSOsub_usage.jpg" width="320px">
 
-M5StackBasicを簡易的なオシロにするアダプタです。M5Stackを簡易オシロにするソフトウエアはいくつかります（例えば[M5Stack-ESP32-Oscilloscope](https://github.com/botofancalin/M5Stack-ESP32-Oscilloscope)や[M5Stackオシロスコープ](https://goji2100.com/blog/?p=967)など）。いずれもM5StackのBOTTOM（底板）に出ているアナログ入力(GPIO36/35)を入力として使っています。
+M5StackBasicを簡易的なオシロにするアダプタです。M5Stackを簡易オシロにするソフトウエアはいくつかあります（例えば[M5Stack-ESP32-Oscilloscope](https://github.com/botofancalin/M5Stack-ESP32-Oscilloscope)や[M5Stackオシロスコープ](https://goji2100.com/blog/?p=967)など）。いずれもM5StackのBOTTOM（底板）に出ているアナログ入力(GPIO36/35)を入力として使っています。
 
 M5StackBasicのBOTTOMコネクタにこのアダプタを差し込むことで、これらのソフトウエアを使って、簡易オシロにすることができます。入力保護回路つきで、ショートピン切り替えで1/10アッテネータを使用できます。
 
